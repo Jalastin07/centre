@@ -1,0 +1,178 @@
+@media only screen and (max-width:768px) {
+    .topbar {
+        width: 100%
+    }
+    .topbarnav {
+        float: left
+    }
+    .banner {
+        width: 100%
+    }
+    .column6 {
+        width: 100%
+    }
+    .secondbanner {
+        width: 100%;
+        height: auto
+    }
+    .column2 {
+        width: 100%
+    }
+    .column4 {
+        width: 100%
+    }
+    .column5 {
+        width: 100%
+    }
+    .column6 {
+        width: 100%
+    }
+    .column8 {
+        width: 100%
+    }
+    .column9 {
+        width: 100%
+    }
+    .column10 {
+        width: 100%
+    }
+    .column11 {
+        width: 100%
+    }
+    .column12 {
+        width: 100%
+    }
+    .column4 {
+        width: 100%
+    }
+    .column7 {
+        width: 100%
+    }
+    .learn-container {
+        width: 100%;
+        height: auto
+    }
+    .column3 {
+        width: 100%
+    }
+    .search ul{
+        display: contents!important;
+    }
+    .area3 {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .container {
+        width: 100%
+    }
+    .topbar {
+        width: 100%
+    }
+    .topbarnav {
+        float: left;
+        margin-top: -34px
+    }
+    .banner {
+        width: 100%;
+        height: 300px
+    }
+    nav {
+        width: 100%
+    }
+    nav ul {
+        display: none
+    }
+    .column {
+        width: 100%
+    }
+    .secondbanner {
+        width: 100%;
+        height: auto
+    }
+    .column2 {
+        width: 100%
+    }
+    .column5 {
+        width: 100%
+    }
+    .aboutimg {
+        width: 100%
+    }
+}
+
+@media (max-width:858px) {
+    .checkbtn {
+        display: block
+    }
+    nav ul {
+        width: 100%;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s
+    }
+    nav ul li {
+        display: block
+    }
+    nav ul li a {
+        font-size: 12px
+    }
+    a.active, a:hover {
+        background: 0 0;
+        color: #0082e6
+    }
+    #check:checked~ul {
+        left: 0
+    }
+}
+
+@media (max-width:768px) {
+    .hamburger {
+        display: inline-block
+    }
+    .nav-menu .menu-item a {
+        font-size: 20px;
+        margin: 8px
+    }
+  
+    .nav-menu {
+        background: black;
+        flex-direction: column;
+        justify-content: center;
+        opacity: 0;
+        z-index: 100;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform: translatey(-100%);
+        text-align: center
+    }
+    .menu-active .nav-menu {
+        transform: translatey(0);
+        opacity: 1
+    }
+    .icon img {
+        width: -webkit-fill-available
+    }
+}
+
+
+
+@media screen and (min-width:600px) {
+    main {
+        max-width: 800px
+    }
+   
+}
+
+@media screen and (min-width:900px) {
+    main {
+        width: 100%;
+        max-width: 1054px;
+        padding: 64px 64px 64px 0
+    }
+}
